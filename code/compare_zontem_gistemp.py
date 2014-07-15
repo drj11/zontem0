@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+"""
+Combine CSV files from Zontem and ccc-gistemp to
+make a CSV file that allows both annual series to be plotted.
+"""
+
 import csv
 import os
 import re
