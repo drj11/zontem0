@@ -66,3 +66,34 @@
   journal: J. Geophys. Res.
   location: 116, D19121
   doi: doi:10.1029/2011JD016187
+-
+  title: Construction of the RSS V3.2 Lower-Tropospheric Temperature Dataset from the MSU and AMSU Microwave Sounders
+  author:
+   - Carl A. Mears
+   - Frank J. Wentz
+  date: 2009-08
+  journal: Journal of Atmospheric and Oceanic Technology
+  doi: doi:10.1175/2009JTECHA1237.1
+-
+  title: Inter-hemispheric temperature variability over the past millennium
+  author:
+   - Raphael Neukom
+   - Joëlle Gergis
+   - David J.  Karoly
+   - Heinz Wanner
+   - Mark Curran
+   - Julie Elbert
+   - Fidel González-Rouco
+   - Braddock K. Linsley
+   - Andrew D. Moy
+   - Ignacio Mundo
+   - Christoph C. Raible
+   - Eric J. Steig
+   - Tas van Ommen
+   - Tessa Vance
+   - Ricardo Villalba
+   - Jens Zinke
+   - David Frank
+  journal: Nature Climate Change
+  date: 2014-03-30
+  doi: doi:10.1038/NCLIMATE2174
