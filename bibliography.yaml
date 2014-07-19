@@ -27,6 +27,42 @@
    - Thomas C. Peterson
    - P. D. Jones
   date: 2005-09-25
-
-
-
+  doi: doi:10.1029/2005GL023502
+-
+  title: The Artificial Production of Carbon Dioxide and its Influence on Temperature
+  author: [G. S. Callendar]
+  date: 1938-02-16
+-
+  title: "First difference method: Maximizing station density for the calculation of long-term global temperature change"
+  author:
+   - Thomas C. Peterson
+   - Thomas R. Karl
+   - Paul F. Jamason
+   - Richard Knight
+   - David R. Easterling
+  date: 1998-10-27
+  journal: Journal of Geophysical Research
+  volume: 103
+  number: D20
+  pages: 25967-25974
+-
+  title: "Global trends of measured surface air temperature"
+  author:
+   - Hansen, J. E.
+   - S. Lebedeff
+  date: 1987
+  doi: doi:10.1029/JD092iD11p13345
+-
+  title: "An overview of the Global Historical Climatology Network monthly mean temperature data set, version 3"
+  author:
+   - Lawrimore, J. H.
+   - M. J. Menne
+   - B. E. Gleason
+   - C. N. Williams
+   - D. B. Wuertz
+   - R. S. Vose
+   - J. Rennie
+  date: 2011
+  journal: J. Geophys. Res.
+  location: 116, D19121
+  doi: doi:10.1029/2011JD016187
