@@ -1,5 +1,6 @@
-Group,Year,Grid Cell Count
-Callendar,1938,9-15
-Hansen,1981,80
-Hansen,1987,8000
-Peterson,1998,2592
+Group,Year,Grid Cell Count,Stations
+Callendar,1938,9-15,152
+GISTEMP,1981,80
+GISTEMP,1987,8000
+GHCN,1998,2592
+CRUTEM4,2012,2592
