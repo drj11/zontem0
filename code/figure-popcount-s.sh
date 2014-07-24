@@ -2,4 +2,4 @@
 
 # Population Count for Southern Hemisphere.
 
-~/ghcntool/stationplot.py --title "Station Contribution Southern Hemisphere" --offset 0,1,2,3,4,5,6,7,8,9 -d zoncount.dat -s 1 -c ylabel="Station Count" -c ytick=25 -c yscale=1 $(for i in $(seq 0 9); do printf 'zontemzon%02d\n' $i; done)
+~/ghcntool/stationplot.py -o figure-popcount-s.svg --title "Station Contribution Southern Hemisphere" -d zoncount.dat -s 1 -c ylabel="Station Count" -c ytick=25 -c yscale=1 $(for i in $(seq 0 9); do printf 'zontemzon%02d\n' $i; done)
