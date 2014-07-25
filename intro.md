@@ -18,7 +18,7 @@ Earth polar-orbiting weather satellites, and it is possible to
 use the microwave brightnesses reported by the sensors to
 estimates temperatures (and hence, temperature change) of
 various layers of the atmosphere, including the lower
-troposphere.  [MEARSWENTZ2009] illustrates one such approach.
+troposphere [MEARSWENTZ2009].
 Satellites give near global coverage (regions near the poles and
 regions above 1500m surface elevation are typically excluded),
 and give a gridded dataset, however they only have data since
@@ -29,8 +29,8 @@ century length).
 Other workers have made use of networks of various proxies for
 temperature (such as ice cores, speleotherms, corals, clay varves,
 bore holes), and reconstructed temperature change for periods preceding
-the instrumental period (for example [NEUKOMETAL2014] reconstructs
-the period 1000 AD to present).  Such reconstructions have
+the instrumental period [NEUKOMETAL2014].
+Such reconstructions have
 limited regional resolution (typically giving estimates only for
 an entire hemisphere), have limited time resolution, and have
 more uncertainty than instrumental estimates, but they give
