@@ -8,19 +8,21 @@ method and results are identical).
 
 Of the commonly available instrumental estimates of temperature change,
 the GISTEMP meteorological station analysis is the most appropriate for
-comparsion for several reasons: no ocean data, zonal scheme, reference
-station method. Of course ocean data will give more accurate estimates
-of global temperature, but for simplicity's sake ZONTEM uses only
-metereological station data; a comparison with a dataset derived from
-land and ocean temperatures wouldn't be sensible. As an
-intermediate step, ZONTEM computes a temperature series for each
-zone. Effectively, the meteorological stations in any particular
-zone are assumed to be representative of the entire zone. This
-is in contrast to CRUTEM4 which takes a more typical approach of
-using a station's temperature series only for the grid box in
-which it resides (typically 5°×5°); to makes hemispherical
-averages each grid box is weighted by its area. GISTEMP employs
-a similar zonal scheme to ZONTEM: when making estimates for
-hemispherical regions, zonal estimates are computed, and then
-each zone is weighted according to the zone's area
-[HANSENETAL2001].
+comparison for several reasons: no ocean data, zonal scheme, reference
+station method. Ocean data improves coverage, but comes with
+data homogenisation issues of their own [HANSENETAL1996].
+For simplicity's sake ZONTEM uses only
+metereological station data; a comparison with a dataset that
+combines metereological station data with ocean data wouldn't be
+a meaningful comparison in this context.
+
+As an intermediate step, ZONTEM computes a temperature series for each
+zone. Effectively, the meteorological stations in any particular zone
+are assumed to be representative of the entire zone. This is in contrast
+to CRUTEM4 which takes a more typical approach of using a station's
+temperature series only for the grid box in which it resides (typically
+5°×5°); to makes hemispherical averages each grid box is weighted
+by its area. GISTEMP employs a similar zonal scheme [HANSENETAL2006] to
+ZONTEM: when making estimates for hemispherical regions, zonal estimates
+are computed, and then each zone is weighted according to the zone's
+area.
