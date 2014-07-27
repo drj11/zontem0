@@ -26,3 +26,10 @@ by its area. GISTEMP employs a similar zonal scheme [HANSENETAL2006] to
 ZONTEM: when making estimates for hemispherical regions, zonal estimates
 are computed, and then each zone is weighted according to the zone's
 area.
+
+As currently configured, ZONTEM uses the Reference Station
+Method [HANSENLEBEDEFF1987] to combine data from several
+metereological stations. The method used to combine stations
+makes a small difference to hemispheric trends [VOSEETAL2005],
+but in order to eliminate this variable, the comparison is with
+GISTEMP which also uses Reference Station Method.
