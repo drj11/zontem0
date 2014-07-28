@@ -3,7 +3,7 @@ the Southern hemisphere, the number of stations contributing to each
 month. The gross features of this station-count graph are discussed in
 [LAWRIMOREETAL2011]. Compared to the Northern hemisphere, the Southern
 hemisphere has far fewer stations, and those stations are generally
-established later. Data is particularly sparse in the Southermost
+established later. Data is particularly sparse in the Southernmost
 zones. Zone 1 (53°S to 64°S) has no stations until the first decade of
 the 1900s when Base Orcadas, WMO 88968, was established and Grytviken,
 WMO 88903, was settled.  Zone 0 (64°S to 90°S) has no stations until
