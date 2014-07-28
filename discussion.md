@@ -21,3 +21,14 @@ been used in ZONTEM because for simplicity only a single source,
 GHCN-M, is used. I encourage the curious to perform their own
 experiment, changing ZONTEM to incorporate the record into the
 analysis.
+
+The Reference Station Method has advantages over the Climate
+Anomaly Method in being able to make use of meteorological station
+data when the station has no data in a particular reference period
+[HANSENLEBEDEFF1987]. ZONTEM, because it combines all stations in a
+zone, is able to make use of a large fraction of the data available
+in GHCN-M. In its present configuration, ZONTEM requires that
+meteorological stations have 20 years of overlap when combining their
+records. Given this restriction, a metereological station must have
+at least 20 years of data to be used by ZONTEM, and ZONTEM uses all
+of the meteorological stations that have 20 years of data (since 1880).
