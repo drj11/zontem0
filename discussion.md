@@ -15,8 +15,9 @@ Rothera Research Station was not established until 1975.
 The reliance on a very small number of stations for certain
 regions and decadal periods is unfortunate, but indicates the
 importance of careful reconstruction and correction for even
-individual stations, such as that undertaken for Byrd station
-[BROMWICHETAL2012]. Bromwich's Byrd record has not been used in
-ZONTEM because for simplicity only a single source, GHCN-M, is
-used. I encourage the curious to perform their own experiment,
-changing ZONTEM to incorporate the record into the analysis.
+individual stations, such as that undertaken by Bromwich et al
+for Byrd station [BROMWICHETAL2012]. Bromwich's Byrd record has not
+been used in ZONTEM because for simplicity only a single source,
+GHCN-M, is used. I encourage the curious to perform their own
+experiment, changing ZONTEM to incorporate the record into the
+analysis.
