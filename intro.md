@@ -1,7 +1,7 @@
 INTRODUCTION
 
-Other workers have estimated the global temperature change.
-Callendar [CALLENDAR1938], Plass (sp?), Hansen, Peterson
+Other workers have estimated the global temperature change
+[CALLENDAR1938] [MITCHELL1963] [HANSENETAL1981]
 [PETERSONETAL1998].
 
 It is common to use databases of historical temperature records
