@@ -26,9 +26,9 @@ change do not generally incorporate this zonal idea. I encourage
 the curious to produce their own comparisons of ZONTEM and other
 analyses of global temperature change.
 
-As currently configured, ZONTEM uses the Reference Station
+ZONTEM uses the Reference Station
 Method [HANSENLEBEDEFF1987] to combine data from several
-metereological stations. The method used to combine stations
-makes a small difference to hemispheric trends [VOSEETAL2005],
-but in order to eliminate this variable, the comparison is with
-GISTEMP which also uses Reference Station Method.
+metereological stations. I expect the method used to combine stations
+to only make a small difference to global trends [VOSEETAL2005],
+and again I encourage the curious to modify ZONTEM to use a
+different method of combining stations.
