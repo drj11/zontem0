@@ -16,16 +16,13 @@ metereological station data; a comparison with a dataset that
 combines metereological station data with ocean data wouldn't be
 a meaningful comparison in this context.
 
-As an intermediate step, ZONTEM computes a temperature series for each
-zone. Effectively, the meteorological stations in any particular zone
-are assumed to be representative of the entire zone. This is in contrast
-to CRUTEM4 which takes a more typical approach of using a station's
-temperature series only for the grid box in which it resides (typically
-5°×5°); to makes hemispherical averages each grid box is weighted
-by its area. GISTEMP employs a similar zonal scheme [HANSENETAL2006] to
-ZONTEM: when making estimates for hemispherical regions, zonal estimates
-are computed, and then each zone is weighted according to the zone's
-area.
+The zonal scheme used by GISTEMP [HANSENETAL2006] is similar to
+the zonal scheme used by ZONTEM. In GISTEMP hemispheric and
+global averages are computed from zonal averages weighted by the
+area of the zone, which avoids giving too much weight to zones
+that are well-endowed with stations. Mitchell, 1963, discusses a
+similar approach, but other analyses of global temperature
+change do not generally incorporate this zonal idea.
 
 As currently configured, ZONTEM uses the Reference Station
 Method [HANSENLEBEDEFF1987] to combine data from several
