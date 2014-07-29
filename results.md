@@ -22,7 +22,9 @@ global averages are computed from zonal averages weighted by the
 area of the zone, which avoids giving too much weight to zones
 that are well-endowed with stations. Mitchell, 1963, discusses a
 similar approach, but other analyses of global temperature
-change do not generally incorporate this zonal idea.
+change do not generally incorporate this zonal idea. I encourage
+the curious to produce their own comparisons of ZONTEM and other
+analyses of global temperature change.
 
 As currently configured, ZONTEM uses the Reference Station
 Method [HANSENLEBEDEFF1987] to combine data from several
