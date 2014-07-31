@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Fetch Natural Earth data (for land outline).
+# Currently we seem to have to download the ne_110m_land.zip
+# file by hand.
+
+dir=~/.local/share/data/ne_110m_land
+mkdir -p -- "$dir"
+unzip -d "$dir" ne_110m_land.zip
+
+
