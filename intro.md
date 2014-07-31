@@ -3,6 +3,7 @@ INTRODUCTION
 Other workers have estimated the global temperature change
 [CALLENDAR1938] [MITCHELL1963] [HANSENETAL1981]
 [PETERSONETAL1998].
+:todo:drj: checkout Quayle et al 1999 and Smith et al 2008
 
 It is common to use databases of historical temperature records
 that have been made available, and the Global Historical
