@@ -1,5 +1,18 @@
 # RESULTS
 
+At the time of preparing this report, ZONTEM has 1998 as the
+warmest year (highest anomaly). Record years are not particular
+stable features of annually resolved analyses of global
+temperature change. Minor changes to methods, the receipt of
+delayed data for a meteorological station, or improved metadata,
+are among the kinds of changes that can shift a particular
+year's anomaly value by a few hundredths of a Kelvin which could
+be enough to move it up or down the ranking.
+For example, CRUTEM3 (average of hemispheres) also has 1998 as the
+warmest year, but CRUTEM4 does not.
+
+:todo:drj: much of what follows is discussion not results.
+
 [figure-compare] shows the annually resolved temperature change
 computed by ZONTEM, and for comparison, the GISTEMP series using
 only meteorological stations [HANSENLEBEDEFF1987] (the data used
