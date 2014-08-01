@@ -21,7 +21,8 @@ zone_text=$(
 )
 
 ~/shptosvg/code/tosvg.py --transform=eqarea ~/.local/share/data/ne_110m_land/*.shp |
-  sed '$i\
+  sed 's/olive/#aaa/
+$i\
 <g class="reticule">\
 '"$reticule_path"'
 </g>\
