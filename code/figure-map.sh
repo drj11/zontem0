@@ -16,7 +16,7 @@ zone_text=$(
       read n_stations
       z=$(printf 'Zone %2d' "$i")
       n=$(printf '%4d stations' "$n_stations")
-      printf '<text alignment-baseline="middle" font-size="12.0" x="290" y="'$y'">%s</text><text text-anchor="end" alignment-baseline="middle" font-size="12.0" x="550" y="'$y'">%s</text>\\\n' "$z" "$n"
+      printf '<text alignment-baseline="middle" font-size="12.0" x="292" y="'$y'">%s</text><text text-anchor="end" alignment-baseline="middle" font-size="12.0" x="550" y="'$y'">%s</text>\\\n' "$z" "$n"
   done
 )
 
