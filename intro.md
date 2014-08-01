@@ -1,40 +1,24 @@
 INTRODUCTION
 
-Other workers have estimated the global temperature change
-[CALLENDAR1938] [MITCHELL1963] [HANSENETAL1981]
-[PETERSONETAL1998].
-:todo:drj: checkout Quayle et al 1999 and Smith et al 2008
+Changes in Earth's near surface air temperature are a key indicator of
+global warming. Direct measurements from meteorological stations
+been used by various workers to estimate hemispheric and global averages
+of historical temperature change [CALLENDAR1938] [MITCHELL1963], and
+since about 1980 such estimates have had reasonable coverage of
+both hemispheres [HANSENETAL1981] [PETERSONETAL1998].
 
-It is common to use databases of historical temperature records
-that have been made available, and the Global Historical
-Climatology Network is well suited for this purpose. ZONTEM uses
-GHCN-M v3 ([LAWRIMOREETAL2011]).
-
-Temperature records from land surface stations are only one
-source of data for estimating global historical temperature
-change.
-
-Since 1979 microwave sounding units have been flown on
-Earth polar-orbiting weather satellites, and it is possible to
-use the microwave brightnesses reported by the sensors to
-estimates temperatures (and hence, temperature change) of
-various layers of the atmosphere, including the lower
-troposphere [MEARSWENTZ2009].
-Satellites give near global coverage (regions near the poles and
-regions above 1500m surface elevation are typically excluded),
-and give a gridded dataset, however they only have data since
-1979, which is a considerably shorter period than the
-instrumental record (which has hundreds of records that are
-century length). 
-
-Other workers have made use of networks of various proxies for
-temperature (such as ice cores, speleotherms, corals, clay varves,
-bore holes), and reconstructed temperature change for periods preceding
-the instrumental period [NEUKOMETAL2014].
-Such reconstructions have
-limited regional resolution (typically giving estimates only for
-an entire hemisphere), have limited time resolution, and have
-more uncertainty than instrumental estimates, but they give
-essential insight into the climate of earlier periods.
-
-
+Estimates from meteorological stations have the drawbacks of incomplete
+spatial coverage (stations tend to be built in rich industrialised
+nations, and of course, on land, which only covers about 30% of Earth's
+surface), and, even in regions with a reasonable density of stations,
+only being reliable as far back as standardised instrumentation
+(generally considered to be about 1880). Spatial coverage is improved
+with satellite measurements [MEARSWENTZ2009], and longer records can
+be achieved from proxy sources [NEUKOMETAL2014], but each of these has
+drawbacks of their own. Temperature series from satellites only go
+back to 1979; temperature series from proxies have coverage issues,
+and other uncertainties. Both suffer from a certain methodological
+problems: to put it bluntly, it's easier to get a temperature reading
+from a thermometer than from an orbiting microwave sensor, or mud
+from the bottom of a lake. Estimates from meteorological stations
+remain important.
