@@ -14,8 +14,9 @@ zone_text=$(
   do
       y=$(expr 351 - $i \* 18)
       read n_stations
-      text=$(printf 'Zone %2d %4d stations' "$i" "$n_stations")
-      printf '<text alignment-baseline="middle" font-size="12.0" x="300" y="'$y'">%s</text>\\\n' "$text"
+      z=$(printf 'Zone %2d' "$i")
+      n=$(printf '%4d stations' "$n_stations")
+      printf '<text alignment-baseline="middle" font-size="12.0" x="290" y="'$y'">%s</text><text text-anchor="end" alignment-baseline="middle" font-size="12.0" x="550" y="'$y'">%s</text>\\\n' "$z" "$n"
   done
 )
 
