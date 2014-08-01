@@ -22,3 +22,28 @@ problems: to put it bluntly, it's easier to get a temperature reading
 from a thermometer than from an orbiting microwave sensor, or mud
 from the bottom of a lake. Estimates from meteorological stations
 remain important.
+
+Throughout the 20th Century estimates of global temperature
+change have gone through a sequence of sophistication and
+elaboration. Hand calculations using networks of a
+few hundred meteorological stations [CALLENDAR1938]
+[MITCHELL1963] progressed to processing thousands of stations
+with digital computers [HANSENETAL1981].  Estimates have been improved
+further by: removing non-climatic sources of variation [HANSENETAL1999]
+[MENNEWILLIAMS2009]; incorporating temperature variations from
+the sea surface [HANSENETAL1996]; improving digital databases of
+climate data [LAWRIMOREETAL2011]; using daily data [ROHDEETAL2013];
+careful reconstruction of individual metereological station records
+[BROMWICHETAL2013]; hybrid interpolation of satellite data with
+sparse metereological station data [COWTANWAY2014]. These improvements
+have generally reduced uncertainties [BROHANETAL2006] and produced
+increasingly refined maps of temperature change.
+
+I welcome these improvements to our collective understanding of
+global historical temperature change, but I recognise that they
+come at a price. Collectively they raise the barrier to
+understanding how we make conclusions about global historical
+temperature change.  The purpose of this study is not to create a new
+more sophisticated estimate with smaller errors bars. The purpose
+of this study is to show a simple method for creating a
+reasonable estimate of global historical temperature change.
