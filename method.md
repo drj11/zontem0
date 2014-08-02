@@ -21,7 +21,8 @@ The input records are distributed into N (=20 by default) zones
 according to the latitude of the station (stations in GHCN are provided
 with basic metadata that includes latitude and longitude). Each zone
 represents the surface of the globe between two circles of latitude;
-each zone covers an equal area.
+each zone covers an equal area. [figure-map] shows the 20 zones
+on a map of Earth.
 
 All the station records in a zone are combined into one record using
 Hansen's Reference Station Method [HANSEN1987], giving each
