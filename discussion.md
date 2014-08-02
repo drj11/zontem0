@@ -29,3 +29,16 @@ data when the station has no data in a particular reference period
 zone, is able to make use of a large fraction of the data available
 in GHCN-M. ZONTEM makes uses of all meteorological stations that
 have at least 20 years of data (since 1880).
+
+ZONTEM is simplified by only having to deal with one record for
+each station. GHCN-M v2 published several, possibly overlapping
+and different, records for station, called *duplicates*. In
+GHCN-M v3, duplicates are combined so that only one record is
+published for each station [LAWRIMOREETAL2011]. Other workers,
+using GHCN-M v2 or more diverse data sources, have had to
+develop their own procedures for handling duplicates
+[HANSENETAL1999] [ROHDEETAL2013] [JONESETAL2010]. I agree with
+Lawrimore's concluding remarks: "The removal of
+station duplicates has greatly simplified the use of the data
+set by removing a feature that created confusion and kept
+some users from gaining full use of the data set." [LAWRIMOREETAL2011]
