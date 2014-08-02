@@ -14,7 +14,8 @@ maximum temperatures.
 
 The input is a number of records, each record being a
 time series of monthly (air) temperature averages from a single
-station.
+station. In the usual analysis, only data since 1880 are used
+(and stations that do not have data since 1880 are not used).
 
 The input records are distributed into N (=20 by default) zones
 according to the latitude of the station (stations in GHCN are provided
