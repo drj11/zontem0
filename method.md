@@ -7,10 +7,10 @@ GISTEMP's algorithm. The aim of ZONTEM is to be as simple as
 possible while giving a reasonable result.
 
 Input data is taken from the Global Historical Climate Network--Monthly
-version 3 [LAWRIMOREETAL2011]. The traditional analysis is of
-adjusted monthly mean temperature, but is also possible to use
-unadjusted data, and also to analyse minimum or maximum
-temperatures.
+version 3 [LAWRIMOREETAL2011] (GHCN-M v3 hereafter). The traditional
+analysis is of adjusted monthly mean temperature, but it is also
+possible to use unadjusted data, and also to analyse minimum or
+maximum temperatures.
 
 The input is a number of records, each record being a
 time series of monthly (air) temperature averages from a single
