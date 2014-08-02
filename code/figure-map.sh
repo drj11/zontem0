@@ -2,7 +2,7 @@
 
 set -e
 
-reticule_path=$(printf '<path d="M 0 %d h 720" />\\\n' $(seq 0 18 360))
+reticule_path=$(printf '<path d="M 0 %d h 720" />\\\n' $(seq 18 18 359))
 
 zone_text=$(
   # Find the number of stations used in each Zone...
