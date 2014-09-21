@@ -31,4 +31,4 @@ $i\
 </g>
 /^ *<style/a\
 g.reticule { stroke: white; stroke-width: 1.4; }
-' > figure-map.svg
+' > result/figure-map.svg
