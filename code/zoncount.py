@@ -5,6 +5,13 @@ import sys
 
 from collections import defaultdict
 
+"""
+Write the file result/zoncount.dat which contains, for each
+zone, the number of stations used in each month.
+
+(It is plotted by the script code/figure-popcount-s.sh)
+"""
+
 def stations_used(inp):
     used = defaultdict(lambda: (None,[]))
     zone = -1
