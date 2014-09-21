@@ -58,7 +58,7 @@ def main(argv=None):
       open(os.path.expanduser("~/zontem/log/zontem.log")))
     count = count_ghcn(open("/home/drj/zontem/input/ghcnm.v3.2.2.20140611/ghcnm.tavg.v3.2.2.20140611.qca.dat"),
       used)
-    with open("zoncount.dat", 'w') as out:
+    with open(os.path.join("result", "zoncount.dat"), 'w') as out:
         count_to_v3(count, out)
 
 if __name__ == '__main__':
