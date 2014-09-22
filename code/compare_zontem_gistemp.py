@@ -43,13 +43,12 @@ def join(zontem=os.path.join(HOME, "zontem"),
               years, zontem_annual, gistemp_annual):
                 csv_out.writerow([year, zontem_v, gistemp_v])
 
-        dat_name = os.path.join("result", "compare_zontem_gistemp.dat")
+        id11 = "ccc-gistemp"
+        dat_name = os.path.join("result", id11 + ".dat")
         with open(dat_name, "w") as dat:
-            for id,values in [('zontem_____', zontem_annual),
-              ('ccc-gistemp', gistemp_annual)]:
-                for year, value in zip(years, values):
-                    months = "{}  f".format(convert1(value)) * 12
-                    dat.write("{}{}TAVG{}\n".format(id, year, months))
+            for year, value in zip(years, gistemp_annual):
+                months = "{}  f".format(convert1(value)) * 12
+                dat.write("{}{}TAVG{}\n".format(id11, year, months))
 
 def convert1(v):
     """
