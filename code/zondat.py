@@ -21,7 +21,7 @@ def to_dat(zontem_dir=os.path.join(HOME, "zontem")):
         zontem_data = [row for row in zontem if re.match(r'[0-9]{4}', row[0])]
         zontem_dict = dict((row[0], row) for row in zontem_data)
 
-        with open("zontem.dat", "w") as dat:
+        with open(os.path.join("result", "zontem.dat"), "w") as dat:
             columns = list(zip(*zontem_data))
             years = columns[0]
             for i, series in enumerate(columns[1:]):
