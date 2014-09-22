@@ -37,15 +37,24 @@ def convert1(v):
     return "{:5.0f}".format(x*100)
 
 def main(argv=None):
+    import getopt
     import glob
     import sys
 
     if argv is None:
         argv = sys.argv
 
-    zontem_dir = os.path.join(HOME, "zontem")
-    zontem_csv = sorted(glob.glob(os.path.join(
-      zontem_dir, "output", "*ghcnm*.csv")))[-1]
+    opt, arg = getopt.getopt(argv[1:], '', ['zontem='])
+    assert not arg
+    zontem_csv = None
+    for o, v in opt:
+        if o == '--zontem':
+            zontem_csv = v
+
+    if zontem_csv is None:
+        zontem_dir = os.path.join(HOME, "zontem")
+        zontem_csv = sorted(glob.glob(os.path.join(
+          zontem_dir, "output", "*ghcnm*.csv")))[-1]
 
     with open(zontem_csv) as f:
         with open(os.path.join("result", "zontem.dat"), "w") as dat:
