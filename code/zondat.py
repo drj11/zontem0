@@ -10,7 +10,7 @@ import re
 
 HOME = os.path.expanduser("~")
 
-def join(zontem_dir=os.path.join(HOME, "zontem")):
+def to_dat(zontem_dir=os.path.join(HOME, "zontem")):
     import glob
 
     zontem_csv = sorted(glob.glob(os.path.join(
@@ -44,4 +44,4 @@ def convert1(v):
         return "-9999"
     return "{:5.0f}".format(x*100)
 
-join()
+to_dat()
