@@ -36,7 +36,7 @@ def dat(out):
 
 def main():
     fetch(URL)
-    with open("crutem4.dat", 'w') as out:
+    with open(os.path.join("result", "crutem4.dat"), 'w') as out:
         dat(out)
 
 if __name__ == '__main__':
