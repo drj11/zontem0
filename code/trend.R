@@ -1,5 +1,9 @@
 #!/usr/bin/env Rscript
 
+# rjson is required
+
+library("rjson")
+
 # Read data, removing -9999 as a missing value.
 d <- read.fwf('result/zontem.dat', width=c(11, 4, 4, 5, 3))
 global.rows <- (d[,1] == 'zontemglobe')
@@ -27,6 +31,10 @@ summary.30 <- summary(fit.30)
 # print(summary(fit.30))
 
 # print(summary(fit.30)$coefficients['year.30',])
-print("year.30")
-print(c("trend", summary.30$coefficients['year.30', 1]))
-print(c("trend.error", summary.30$coefficients['year.30', 2]))
+
+j = list(trend = summary.30$coefficients['year.30', 1],
+  trend.error = summary.30$coefficients['year.30', 2])
+
+out <- file("result/trend.json")
+writeLines(toJSON(j), out)
+close(out)
