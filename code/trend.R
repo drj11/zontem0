@@ -32,7 +32,7 @@ summary.30 <- summary(fit.30)
 
 # print(summary(fit.30)$coefficients['year.30',])
 
-j = list(trend = summary.30$coefficients['year.30', 1],
+j <- list(trend = summary.30$coefficients['year.30', 1],
   trend.error = summary.30$coefficients['year.30', 2])
 
 out <- file("result/trend.json")
