@@ -32,8 +32,17 @@ summary.30 <- summary(fit.30)
 
 # print(summary(fit.30)$coefficients['year.30',])
 
-j <- list(trend = summary.30$coefficients['year.30', 1],
-  trend.error = summary.30$coefficients['year.30', 2])
+# fit should be a model fit returned by lm
+# returns the trend and the error in a list with names
+# "trend" and "trend.error". Assumes the relevant coefficient
+# is the second coefficient; which it will be if the model is
+# of the form p ~ q.
+trend_l <- function(fit) {
+  coeff <- summary(fit)$coefficients
+  list(trend = coeff[2, 1], trend.error = coeff[2, 2])
+}
+
+j <- trend_l(fit.30)
 
 out <- file("result/trend.json")
 writeLines(toJSON(j), out)
