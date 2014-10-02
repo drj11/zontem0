@@ -18,7 +18,7 @@ dat.read = function(file.name, id) {
 
 zontem.global = dat.read('result/zontem.dat', 'zontemglobe')
 
-# Exract the year and anomly for the whole period...
+# Extract the year and anomly for the whole period...
 year <- zontem.global[,2]
 anom <- zontem.global[,4]
 
