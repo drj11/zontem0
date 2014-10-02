@@ -18,19 +18,21 @@ dat.read = function(file.name, id) {
 
 zontem.global = dat.read('result/zontem.dat', 'zontemglobe')
 
-# Extract the year and anomly for the whole period...
-year <- zontem.global[,2]
-anom <- zontem.global[,4]
+# Construct a linear model for the last 30 years of data.
+lm.30 = function(pairs) {
+    # Extract the year and anomly for the whole period...
+    year <- pairs[,2]
+    anom <- pairs[,4]
+    # ... and for the most recent 30 years.
+    s <- length(year)-29
+    e <- length(year)
+    year.30 <- year[s:e]
+    anom.30 <- anom[s:e]
+    fit.30 <- lm(anom.30~year.30)
+    fit.30
+}
 
-# ... and for the most recent 30 years.
-s <- length(year)-29
-e <- length(year)
-year.30 <- year[s:e]
-anom.30 <- anom[s:e]
-
-# Fit linear model to each period.
-fit.all <- lm(anom~year)
-fit.30 <- lm(anom.30~year.30)
+zontem.fit.30 = lm.30(zontem.global)
 
 # fit should be a model fit returned by lm
 # returns the trend and the error in a list with names
@@ -42,7 +44,7 @@ trend_l <- function(fit) {
   list(trend = coeff[2, 1], trend.error = coeff[2, 2])
 }
 
-j <- trend_l(fit.30)
+j <- trend_l(zontem.fit.30)
 
 out <- file("result/trend.json")
 writeLines(toJSON(j), out)
