@@ -24,14 +24,6 @@ anom.30 <- anom[s:e]
 fit.all <- lm(anom~year)
 fit.30 <- lm(anom.30~year.30)
 
-summary.all <- summary(fit.all)
-summary.30 <- summary(fit.30)
-
-# print(summary(fit.all))
-# print(summary(fit.30))
-
-# print(summary(fit.30)$coefficients['year.30',])
-
 # fit should be a model fit returned by lm
 # returns the trend and the error in a list with names
 # "trend" and "trend.error". Assumes the relevant coefficient
