@@ -18,6 +18,8 @@ dat.read = function(file.name, id) {
 
 zontem.global = dat.read('result/zontem.dat', 'zontemglobe')
 gistemp.global = dat.read('result/ccc-gistemp.dat', 'ccc-gistemp')
+zoncru.global = dat.read('result/zontem-crutem4.dat', 'zontemglobe')
+crutem4.global = dat.read('result/crutem4.dat', 'CRUTEM4GLOB')
 
 # Construct a linear model for the last 30 years of data.
 lm.30 = function(pairs) {
@@ -35,6 +37,8 @@ lm.30 = function(pairs) {
 
 zontem.fit.30 = lm.30(zontem.global)
 gistemp.fit.30 = lm.30(gistemp.global)
+zoncru.fit.30 = lm.30(zoncru.global)
+crutem4.fit.30 = lm.30(crutem4.global)
 
 # fit should be a model fit returned by lm
 # returns the trend and the error in a list with names
@@ -47,7 +51,9 @@ trend_l <- function(fit) {
 }
 
 j <- list(zontem = trend_l(zontem.fit.30),
-  gistemp = trend_l(gistemp.fit.30))
+  gistemp = trend_l(gistemp.fit.30),
+  zoncru = trend_l(zoncru.fit.30),
+  crutem4 = trend_l(crutem4.fit.30))
 
 out <- file("result/trend.json")
 writeLines(toJSON(j), out)
