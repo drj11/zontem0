@@ -4,15 +4,23 @@
 
 library("rjson")
 
-# Read data, removing -9999 as a missing value.
-d <- read.fwf('result/zontem.dat', width=c(11, 4, 4, 5, 3))
-global.rows <- (d[,1] == 'zontemglobe')
-global.data <- d[global.rows,]
-global.data <- global.data[global.data[,4] != -9999,]
+# Read from GHCN-M v3 formatted file. The .dat file is assumed
+# to contain yearly data where all months are the same. Only the
+# first month of the year, January, is extracted. Data marked as
+# missing, -9999, are removed.
+# The result is a data frame of two columns.
+dat.read = function(file.name, id) {
+    d <- read.fwf(file.name, width=c(11, 4, 4, 5, 3))
+    global.rows <- (d[,1] == id)
+    global.data <- d[global.rows,]
+    global.data <- global.data[global.data[,4] != -9999,]
+}
+
+zontem.global = dat.read('result/zontem.dat', 'zontemglobe')
 
 # Exract the year and anomly for the whole period...
-year <- global.data[,2]
-anom <- global.data[,4]
+year <- zontem.global[,2]
+anom <- zontem.global[,4]
 
 # ... and for the most recent 30 years.
 s <- length(year)-29
