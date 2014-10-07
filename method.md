@@ -47,3 +47,13 @@ anomalies are formed by averaging the 12 monthly anomalies for
 each year (only years with 12 valid monthly anomalies form an average
 yearly anomaly, but with the usual input all years except the current
 have 12 valid monthly anomalies).
+
+The result is a global annual anomaly series. It is output as a
+CSV [SHAFRANOVICH2005] file, and is hence importable into many
+software packages such as R, Python, OpenOffice, and so on. As a
+convenience the annual series for each zone is also output.
+These zonal series are not meant to be representative of the zones for
+which they are computed, the monthly series are merely used as an
+intermediate step in calculating the global series, and the
+annual series are a useful diagnostic. I urge caution when using
+the zonal series directly.
