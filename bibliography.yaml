@@ -10,6 +10,19 @@
   date: 2006-09-26
   doi: doi:10.1073/pnas.0606291103
 -
+  title: "Uncertainty estimates in regional and global observed temperature changes: a new dataset from 1850"
+  author:
+   - P. Brohan
+   - J. J. Kennedy
+   - I. Harris
+   - S. F. B. Tett
+   - P. D. Jones
+  doi: doi:10.1029/2005JD006548
+  journal: Journal of Geophysical Research
+  volume: 111
+  number: D12106
+  date: 2006
+-
   title: "Hemispheric and large-scale land surface air temperature variations: An extensive revision and an update to 2010"
   author:
    - P.D. Jones
