@@ -32,7 +32,7 @@ are among the kinds of changes that can shift a particular
 year's anomaly value by a few hundredths of a Kelvin which could
 be enough to move it up or down the ranking.
 For example, CRUTEM3 [BROHANETAL2006] also has 1998 as the
-warmest year, but CRUTEM4 does not.
+warmest year, but CRUTEM4 [JONESETAL2010] does not.
 
 :todo:drj: much of what follows is discussion not results.
 
