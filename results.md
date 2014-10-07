@@ -15,7 +15,7 @@ not smaller for GISTEMP. This is to be expected from its more
 sophisticated treatment of what is essentially the same input
 data. In estimating errors, no attempt was made to account for
 autocorrelation even though an estimate of the autocorrelation
-structure marginally suggests that an ARMA(1,0) model might be
+structure marginally suggests that an AR(1) model might be
 appropriate. The effect of this would be to reduce the degrees of
 freedom, and hence increase the estimated errors in trend.  Since this
 is no more than a sketch, I have chosen the simpler model, but
