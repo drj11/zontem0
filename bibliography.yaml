@@ -145,4 +145,11 @@
   date: 2014
   journal: Quarterly Journal of the Royal Meteorological Society
   doi: doi:10.1002/qj.2297
+-
+  title: "Common Format and MIME Type for Comma-Separated Values (CSV) Files"
+  author:
+    - Shafranovich, Y.
+  volume: RFC 4180
+  date: 2005-10
+  url: http://www.rfc-editor.org/info/rfc4180
 
