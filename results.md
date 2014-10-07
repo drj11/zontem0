@@ -22,11 +22,11 @@ data. In estimating errors, no attempt was made to account for
 autocorrelation even though an estimate of the autocorrelation
 structure marginally suggests that an AR(1) model might be
 appropriate. The effect of this would be to reduce the degrees of
-freedom, and hence increase the estimated errors in trend.  Since this
-is no more than a sketch, I have chosen the simpler model, but
-with the caveat that the errors are more likely than not
-underestimated. I encourage curious modellers to torture the
-data with increasingly elaborate models.
+freedom, and hence increase the estimated errors in trend.
+Since ZONTEM is no more than a sketch, I have chosen the simpler
+model, but with the caveat that the errors are more likely than not
+underestimated. I encourage curious modellers to torture the data
+with increasingly elaborate models.
 
 At the time of preparing this report, ZONTEM has 1998 as the
 warmest year (highest anomaly). Record years are not particular
