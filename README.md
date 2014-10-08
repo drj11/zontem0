@@ -18,7 +18,7 @@ techniques. benefits of simplicity
 
 Methods
 
-Zonal analysis. station density.
+Zonal analysis. code.
 
 Results
 
