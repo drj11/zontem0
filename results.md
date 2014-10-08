@@ -40,3 +40,21 @@ year's anomaly value by a few hundredths of a Kelvin which could
 be enough to move it up or down the ranking.
 For example, CRUTEM3 [BROHANETAL2006] also has 1998 as the
 warmest year, but CRUTEM4 [JONESETAL2010] does not.
+
+## Code Size
+
+[table-code] shows the code size (source lines of code) for the
+implementations of ZONTEM, ccc-gistemp, and GISS GISTEMP.
+Comparisons of code size are complicated by a number of factors:
+What code should be included (for example, code that generates plots
+should probably not be included)? What lines should be included
+(comments, blank lines)? Are some lines worth more than others?
+Those issues aside, it is clear that the code for ZONTEM is far smaller
+than either ccc-gistemp or GISS GISTEMP.
+
+The implementation of ZONTEM is simpler than ccc-gistemp and GISS
+GISTEMP and this is reflected in its smaller code size. The
+implementation is simpler because the method is simpler (and
+partly because ZONTEM is a "clean room" implementation, produced
+by a single worker in a relatively short span of time,
+unconstrained by history).
