@@ -9,7 +9,7 @@ the 1900s when Base Orcadas, WMO 88968, was established and Grytviken,
 WMO 88903, was settled.  Zone 0 (64°S to 90°S) has no stations until
 the 1940s when Faraday, now Vernadsky, WMO 89063, was settled and a
 station identified as WMO 89062 and named Rothera starts reporting.
-The station record for WMO89063 in GHCN-M deserves further attention as
+The station record for WMO 89062 in GHCN-M deserves further attention as
 Rothera Research Station was not established until 1975.
 
 The reliance on a very small number of stations for certain
