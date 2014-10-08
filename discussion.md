@@ -1,3 +1,4 @@
+## Why GISTEMP?
 
 Of the commonly available instrumental estimates of temperature change,
 the GISTEMP meteorological station analysis is the most appropriate for
@@ -26,6 +27,8 @@ to only make a small difference to global trends [VOSEETAL2005],
 and again I encourage the curious to modify ZONTEM to use a
 different method of combining stations.
 
+## Station Density
+
 [figure-popcount-s] shows, separately for each of the 10 zones in
 the Southern hemisphere, the number of stations contributing to each
 month. The gross features of this station-count graph are discussed in
@@ -49,6 +52,8 @@ been used in ZONTEM because for simplicity only a single source,
 GHCN-M, is used. I encourage the curious to perform their own
 experiment, changing ZONTEM to incorporate the record into the
 analysis.
+
+## Data Utilisation
 
 The Reference Station Method has advantages over the Climate
 Anomaly Method in being able to make use of meteorological station
