@@ -1,3 +1,31 @@
+
+Of the commonly available instrumental estimates of temperature change,
+the GISTEMP meteorological station analysis is the most appropriate for
+comparison for several reasons: no ocean data, zonal scheme, reference
+station method. Ocean data improves coverage, but comes with
+data homogenisation issues of their own [HANSENETAL1996].
+For simplicity's sake ZONTEM uses only
+metereological station data; a comparison with a dataset that
+combines metereological station data with ocean data wouldn't be
+a meaningful comparison in this context.
+
+The zonal scheme used by GISTEMP [HANSENETAL2006] is similar to
+the zonal scheme used by ZONTEM. In GISTEMP hemispheric and
+global averages are computed from zonal averages weighted by the
+area of the zone, which avoids giving too much weight to zones
+that are well-endowed with stations. Mitchell, 1963, discusses a
+similar approach, but other analyses of global temperature
+change do not generally incorporate this zonal idea. I encourage
+the curious to produce their own comparisons of ZONTEM and other
+analyses of global temperature change.
+
+ZONTEM uses the Reference Station
+Method [HANSENLEBEDEFF1987] to combine data from several
+metereological stations. I expect the method used to combine stations
+to only make a small difference to global trends [VOSEETAL2005],
+and again I encourage the curious to modify ZONTEM to use a
+different method of combining stations.
+
 [figure-popcount-s] shows, separately for each of the 10 zones in
 the Southern hemisphere, the number of stations contributing to each
 month. The gross features of this station-count graph are discussed in
