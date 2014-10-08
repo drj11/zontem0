@@ -13,20 +13,20 @@ only meteorological stations [HANSENLEBEDEFF1987].
 
 [table-compare] shows the trend obtained by fitting a linear
 model to the most recent 30 years. The GISTEMP and ZONTEM
-series have the same trend (difference in trends are far smaller
+series have the same trend (differences in trends are far smaller
 than differences explained by noise).
 The errors in estimating the trend are more likely than
-not smaller for GISTEMP. This is to be expected from its more
-sophisticated treatment of what is essentially the same input
-data. In estimating errors, no attempt was made to account for
-autocorrelation even though an estimate of the autocorrelation
-structure marginally suggests that an AR(1) model might be
-appropriate. The effect of this would be to reduce the degrees of
-freedom, and hence increase the estimated errors in trend.
-Since ZONTEM is no more than a sketch, I have chosen the simpler
-model, but with the caveat that the errors are more likely than not
-underestimated. I encourage curious modellers to torture the data
-with increasingly elaborate models.
+not smaller for GISTEMP than for ZONTEM. This is to be expected
+from its more sophisticated treatment of what is essentially
+the same input data. In estimating errors, I have not
+accounted for autocorrelation even though an estimate of the
+autocorrelation structure of the residuals from the fit marginally
+suggests that an AR(1) model might be appropriate. The effect of this
+would be to reduce the degrees of freedom, and hence increase the
+estimated errors in trend.  Since ZONTEM is no more than a sketch,
+I have chosen the simpler model, but with the caveat that the errors
+are more likely than not underestimated. I encourage curious modellers
+to torture the data with increasingly elaborate models.
 
 At the time of preparing this report, ZONTEM has 1998 as the
 warmest year (highest anomaly). Record years are not particular
