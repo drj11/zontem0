@@ -1,5 +1,7 @@
 # RESULTS
 
+## Global Temperature Anomaly
+
 Below references to the results of ZONTEM refer to the output of the
 software package described in this report. References to the
 results of GISTEMP refer to the output of the software package
