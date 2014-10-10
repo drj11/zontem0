@@ -48,13 +48,8 @@ implementations of ZONTEM, ccc-gistemp, and GISS GISTEMP.
 Comparisons of code size are complicated by a number of factors:
 What code should be included (for example, code that generates plots
 should probably not be included)? What lines should be included
-(comments, blank lines)? Are some lines worth more than others?
-Those issues aside, it is clear that the code for ZONTEM is far smaller
-than either ccc-gistemp or GISS GISTEMP.
-
-The implementation of ZONTEM is simpler than ccc-gistemp and GISS
-GISTEMP and this is reflected in its smaller code size. The
-implementation is simpler because the method is simpler (and
-partly because ZONTEM is a "clean room" implementation, produced
-by a single worker in a relatively short span of time,
-unconstrained by history).
+(comments, blank lines)? Are some lines worth more than others
+(1000 lines of Fortran or 1000 lines of Python)? Those issues
+aside, it is clear that the code for ZONTEM is far smaller than either
+ccc-gistemp or GISS GISTEMP.  The implementation of ZONTEM is smaller
+because it is simpler.
